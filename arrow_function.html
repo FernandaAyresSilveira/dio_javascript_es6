@@ -9,10 +9,14 @@
   		<script type="text/javascript">
   			
   			var obj = {
+  				showContext: function showContext(){
+  					console.log(this);
+  				},
   				log: function log(value){
   					console.log(value);
   				}
-  			}
+  			};
+  			obj.showContext();
 
 
 
