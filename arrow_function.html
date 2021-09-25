@@ -8,16 +8,13 @@
   	<footer>
   		<script type="text/javascript">
   			
-  			var createObj = () => ({ text: 123 });
-
-  			console.log(createObj());
-
-  			
-  			log('teste');
-
-  			function log(value){
-  				console.log(value);
+  			var obj = {
+  				log: function log(value){
+  					console.log(value);
+  				}
   			}
+
+
 
 
 
